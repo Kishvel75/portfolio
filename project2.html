@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Non-Invasive Glucose Monitoring - Project Details</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .project-details {
+      max-width: 1000px;
+      margin: 80px auto;
+      padding: 20px;
+      background: #1f242d;
+      border: 2px solid #7cf03d;
+      border-radius: 10px;
+      color: #fff;
+    }
+    .project-details h1 {
+      font-size: 36px;
+      color: #7cf03d;
+      margin-bottom: 20px;
+    }
+    .project-details img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+      border: 2px solid #7cf03d;
+    }
+    .project-details p, .project-details ul {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #7cf03d;
+      color: #1f242d;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .back-btn:hover {
+      background: transparent;
+      color: #7cf03d;
+      border: 2px solid #7cf03d;
+    }
+    .project-header {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    .project-header .project-icon {
+      width: 50px;
+      height: auto;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="project-details">
+    <div class="project-header">
+      <img src="images/project2.png" alt="Non-invasive Glucose Monitoring" class="project-icon" />
+      <h1>Non-invasive Glucose Monitoring</h1>
+    </div>
+    <p>
+      This project introduces a continuous glucose monitoring system using FTIR and NIR spectroscopy to avoid painful finger-pricking. The design combines multiple laser sources, an InGaAs detector, and advanced signal processing techniques including Fourier transforms and spectral subtraction to achieve high accuracy.
+    </p>
+    <p>
+      <strong>Key Techniques:</strong>
+      <ul>
+        <li>FTIR and NIR spectroscopy for non-invasive measurement</li>
+        <li>Beer-Lambert law for concentration estimation</li>
+        <li>Multi-laser system for higher accuracy</li>
+        <li>Fourier Transform for signal analysis</li>
+        <li>Noise reduction using spectral subtraction and filtering</li>
+      </ul>
+    </p>
+    <p>
+      The project flow includes optical design using Zemax OpticStudio, signal acquisition, frequency domain analysis, and inverse transform for final glucose level estimation.
+    </p>
+    <img src="images/Prototype.png" alt="Prototype Image" class="small-img" />
+    <img src="images/Simulation.png" alt="Simulation Image" class="small-img" />
+
+
+    <a href="index.html" class="back-btn">&larr; Back to Portfolio</a>
+  </div>
+</body>
+</html>
