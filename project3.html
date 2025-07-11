@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IoT-Based Multipurpose Glove - Project Details</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .project-details {
+        max-width: 1000px;
+        margin: 80px auto;
+        padding: 20px;
+        background: #1f242d;
+        border: 2px solid #7cf03d;
+        border-radius: 10px;
+        color: #fff;
+      }
+
+      .project-details h1 {
+        font-size: 36px;
+        color: #7cf03d;
+        margin-bottom: 20px;
+      }
+
+      .project-details img {
+        max-width: 100%;
+        border-radius: 10px;
+        margin: 20px 0;
+        border: 2px solid #7cf03d;
+      }
+
+      .project-details p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+      }
+
+      .project-details ul {
+        margin-left: 20px;
+        list-style: disc;
+      }
+
+      .back-btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #7cf03d;
+        color: #1f242d;
+        border-radius: 5px;
+        font-weight: 600;
+        transition: 0.3s;
+        text-decoration: none;
+      }
+
+      .back-btn:hover {
+        background: transparent;
+        color: #7cf03d;
+        border: 2px solid #7cf03d;
+      }
+
+      .project-header {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 20px;
+      }
+
+      .project-header .project-icon {
+        width: 50px;
+        height: auto;
+        border-radius: 5px;
+      }
+
+      .genai-box {
+        background: #2d323d;
+        padding: 20px;
+        border: 2px dashed #7cf03d;
+        border-radius: 10px;
+        margin-top: 30px;
+      }
+
+      .genai-box h2 {
+        color: #7cf03d;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="project-details">
+      <div class="project-header">
+        <img
+          src="images/project3.png"
+          alt="IoT-Based Multipurpose Glove"
+          class="project-icon"
+        />
+        <h1>IoT-Based Multipurpose Glove</h1>
+      </div>
+
+      <p>
+        The IoT-Based Multipurpose Glove is an innovative wearable designed for
+        gesture-based control, health monitoring, and seamless interaction with
+        smart environments. This glove leverages IoT and embedded systems to
+        provide real-time sensing and data transmission through integrated
+        sensors and wireless modules.
+      </p>
+
+      <p>
+        Equipped with flex sensors, MPU6050 motion tracking, and heart rate
+        monitoring, the glove connects to platforms like Blynk for live updates.
+        Its applications range from medical assistance and rehabilitation to
+        smart home control and virtual interfaces.
+      </p>
+
+      <p><strong>Key Features:</strong></p>
+      <ul>
+        <li>ESP32-based wearable microcontroller</li>
+        <li>Flex sensors for gesture recognition</li>
+        <li>MPU6050 (accelerometer + gyro) for motion tracking</li>
+        <li>Heart rate sensor for health monitoring</li>
+        <li>Real-time data on Blynk IoT platform</li>
+        <li>Gesture-based wireless control</li>
+      </ul>
+
+      <div class="genai-box">
+        <h2>GenAI Integration</h2>
+        <p>
+          This glove is powered with a Generative AI feature to analyze sensor
+          patterns and provide smart feedback and adaptive responses. The glove
+          learns user movements and assists in anomaly detection, gesture
+          classification, and predictive control through embedded ML models.
+        </p>
+        <ul>
+          <li>Real-time anomaly detection using AI-powered sensor fusion</li>
+          <li>Adaptive gesture training based on user behavior</li>
+          <li>Voice feedback and notifications using AI-generated responses</li>
+          <li>Integration-ready with GenAI APIs for further expansion</li>
+        </ul>
+      </div>
+
+      <img src="images/glove.png" alt="Glove System Block Diagram" />
+
+      <a href="index.html" class="back-btn">&larr; Back to Portfolio</a>
+    </div>
+  </body>
+</html>
